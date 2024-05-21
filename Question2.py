@@ -24,7 +24,7 @@ class Solution:
     def solve(self):
         string = self.readInput()
         label = self.calculateLabel(string)
-        #print(string)  不确定是否需要再打印一次原字符串
+        print(string)  #不确定是否需要再打印一次原字符串
         print(label)
         return label
 
